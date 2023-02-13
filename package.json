@@ -1,0 +1,25 @@
+{
+    "name": "push-notifications-server-codelab-incomplete",
+    "version": "1.0.0",
+    "description": "Codelab: Build a push notifications server",
+    "main": "server.js",
+    "scripts": {
+        "clean": "[ -e data/db.json ] && rm data/db.json",
+        "start": "npm run clean; node server.js;"
+    },
+    "dependencies": {
+        "body-parser": "1.19.0",
+        "dotenv": "^16.0.3",
+        "express": "4.16.4",
+        "express-session": "1.16.2",
+        "lowdb": "1.0.0",
+        "web-push": "3.4.1"
+    },
+    "engines": {
+        "node": "8.15.1"
+    },
+    "repository": {
+        "url": "push-notifications-server-codelab-incomplete"
+    },
+    "license": "Apache-2.0"
+}
